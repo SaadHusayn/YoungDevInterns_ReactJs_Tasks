@@ -1,0 +1,17 @@
+.section{
+    padding-bottom: 1rem ;
+}
+
+.header-section{
+    margin-bottom: 2rem;
+}
+
+.section-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0 !important;
+}
+
+hr{
+    margin-top: 0;
+}

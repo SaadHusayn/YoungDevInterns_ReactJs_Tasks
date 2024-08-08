@@ -1,6 +1,6 @@
 import './index.scss'
 import LogoS from '../../../assets/images/logo-s.png'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef} from 'react'
 import gsap from 'gsap-trial'
 import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin'
 
@@ -14,7 +14,7 @@ const Logo = () => {
   useEffect(() => {
     if (didAnimate.current) return // Check if animation has run before, if yes, do nothing
     didAnimate.current = true
-    
+
     gsap.registerPlugin(DrawSVGPlugin)
 
     

@@ -20,7 +20,7 @@ const About = () => {
       <div className="text-zone">
         <h1>
           <AnimatedLetters
-            str={'About me'}
+            str={'Projects'}
             index={15}
             letterClass={letterClass}
           />

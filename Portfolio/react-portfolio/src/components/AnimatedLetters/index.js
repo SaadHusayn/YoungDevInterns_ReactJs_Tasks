@@ -5,7 +5,7 @@ const AnimatedLetters = ({letterClass, str, index}) => {
 
 
     return (
-        <span>
+        <span className='letters-group'>
             {
                 map.call(str, (letter, i) => (
                     <span key={letter+i} className={`${letterClass} _${i+index}`}>{letter}</span>

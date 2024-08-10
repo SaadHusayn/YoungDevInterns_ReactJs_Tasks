@@ -1,9 +1,15 @@
+.letters-group{
+    -webkit-user-select: none;
+    user-select: none;
+}
+
 .text-animate {
     display: inline-block;
     opacity: 0;
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
     min-width: 10px;
+    
 
 }
 
@@ -13,7 +19,7 @@
     animation-fill-mode: both;
 
     &:hover {
-        animation: rubberBand 1s;
+        animation: rubberBand 1s ;
         color: #ffd700;
     }
 }

@@ -1,5 +1,9 @@
 .logo-subtitle {
   font-family: 'Levinim' !important;
+  text-decoration: inherit;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
 }
 
 .nav-bar {
@@ -10,6 +14,7 @@
   top: 0;
   z-index: 3;
   min-height: 500px;
+  text-decoration: none !important;
 
   .logo {
     display: block;

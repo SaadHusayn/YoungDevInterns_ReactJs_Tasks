@@ -8,9 +8,10 @@ import {faLinkedin, faYoutube, faGithub, faWhatsapp} from '@fortawesome/free-bra
 
 const Sidebar = () => (
   <div className="nav-bar">
-    <Link className="logo" to="/">
+    <Link className="logo" to="/" style={{"textDecoration":"none"}}>
       <img className="main-logo" src={LogoS} alt="logo" />
-      <img className="sub-logo" src={LogoSubtitle} alt="Saad" />
+      {/* <img className="sub-logo" src={LogoSubtitle} alt="Saad" /> */}
+      <div className='logo-subtitle' >Saad</div>
     </Link>
 
     <nav>

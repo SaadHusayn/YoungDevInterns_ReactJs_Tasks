@@ -4,6 +4,8 @@ import './index.scss'
 import { useEffect, useState } from 'react'
 import { faBootstrap, faCss3, faGitAlt, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import djangoLogo from '../../assets/images/django.png'
+import pythonLogo from '../../assets/images/python.png'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -26,10 +28,14 @@ const About = () => {
           />
         </h1>
 
-        <p>Hi, I'm Saad Hussain, a sophomore Computer Science student at FAST NUCES with three years of programming experience, including one year in full-stack web development using Django and React. My skills include Django, React, Bootstrap, JS, Python, C/C++, Git, and GitHub. I've been a finalist in Coders Cup '23 and a silver medalist in my first semester.</p>
+        <a className='project-link' href='https://github.com/SaadHusayn/commerce/' target='_blank'><div className='project'>E-Commerce Auctions App <span className='project-tech'> Django - Bootstrap - SQLite</span></div></a>
+        <a className='project-link' href='https://saadhussain.netlify.app' target='_blank'><div className='project'>Professional Resume <span className='project-tech'> React - Bootstrap - CSS</span></div></a>
+        <a className='project-link' href='https://github.com/SaadHusayn/quiz-game/' target='_blank'><div className='project'>Math Quiz Game <span className='project-tech'> React - CSS</span></div></a>
+        <a className='project-link' href='https://github.com/SaadHusayn/mail/' target='_blank'><div className='project'>Mailing App <span className='project-tech'> Django - Javascript - REST APIs</span></div></a>
+        <a className='project-link' href='https://github.com/SaadHusayn/search/' target='_blank'><div className='project'>Google Search Clone <span className='project-tech'> HTML - CSS - GET Requests</span></div></a>
+        <a className='project-link' href='https://github.com/SaadHusayn/wiki/' target='_blank'><div className='project'>Encyclopedia App <span className='project-tech'> Django - Bootstrap - markdown2</span></div></a>
+        <a className='project-link' href='https://saadb5.netlify.app/' target='_blank'><div className='project'>Design Template <span className='project-tech'> Bootstrap - ShapeDivider - Pixcap</span></div></a>
 
-        <p>Beyond academics, I enjoy learning about history, playing video games, and chess. My notable projects include an E-commerce auctions app built with Django and an Arithmetic game using ReactJS. I believe in learning from others and teaching in return.</p>
-        <p>I aim to add value through my skills in dynamic and creative work environments. I'm excited about future projects and collaborations. Feel free to connect with me on <a className='about-me-link' href='https://www.linkedin.com/in/saad-hussain-b55171203/'>LinkedIn</a>  or <a className='about-me-link' href='https://wa.me/923142604066'>WhatsApp</a>. Thank you for visiting my portfolio!</p>
       </div>
 
       <div className='stage-cube-cont'>
@@ -39,7 +45,7 @@ const About = () => {
             </div>
 
             <div className='face2'>
-                <FontAwesomeIcon icon={faPython} color='#FFC30F' />
+                <img style={{"width":"100px"}} src={pythonLogo} alt='python' />
             </div>
 
             <div className='face3'>
@@ -55,7 +61,7 @@ const About = () => {
             </div>
 
             <div className='face6'>
-                <FontAwesomeIcon icon={faCss3} color='#2D53E5' />
+                <img style={{"width":"100px"}} src={djangoLogo} alt='django' />
             </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ const Contact = () => {
               letterClass={letterClass}
             />{' '}
           </h1>
-          <p>
+          <p style={{fontSize:"12px"}}>
             I'm always open to new opportunities and collaborations. Whether you
             have a project in mind or just want to connect, feel free to reach
             out. You can contact me through the form below, and I'll get back to

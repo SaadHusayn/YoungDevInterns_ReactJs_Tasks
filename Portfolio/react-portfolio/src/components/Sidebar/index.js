@@ -1,17 +1,15 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub(1).png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faYoutube, faGithub, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/" style={{"textDecoration":"none"}}>
       <img className="main-logo" src={LogoS} alt="logo" />
-      {/* <img className="sub-logo" src={LogoSubtitle} alt="Saad" /> */}
-      <div className='logo-subtitle' >Saad</div>
+      <div className='logo-subt itle' >Saad</div>
     </Link>
 
     <nav>
@@ -40,8 +38,9 @@ const Sidebar = () => (
     <ul>
       <li>
         <a
-          target="_blank"
           rel="norefferer"
+          target="_blank"
+          
           href="https://www.linkedin.com/in/saad-hussain-b55171203/"
         >
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
@@ -50,8 +49,8 @@ const Sidebar = () => (
 
       <li>
         <a
-          target="_blank"
           rel="norefferer"
+          target="_blank"
           href="https://github.com/saadhusayn"
         >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
@@ -59,15 +58,15 @@ const Sidebar = () => (
       </li>
 
       <li>
-        <a target="_blank" rel="norefferer" href="https://wa.me/923142604066">
+        <a  rel="norefferer" target="_blank" href="https://wa.me/923142604066">
           <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e" />
         </a>
       </li>
 
       <li>
         <a
-          target="_blank"
           rel="norefferer"
+          target="_blank"
           href="https://www.youtube.com/channel/UCYWFQjmsh7LJKgVQG2nxApQ"
         >
           <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />

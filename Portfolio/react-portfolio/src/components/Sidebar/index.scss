@@ -77,6 +77,7 @@
         width: 100%;
         text-align: center;
         opacity: 0;
+        font-family: 'levinim';
         transition: all 0.3s ease-out;
       }
 
@@ -89,12 +90,14 @@
 
     a.projects-link {
       &:after {
+        font-family: 'levinim';
         content: 'PROJECTS';
       }
     }
 
     a.contact-link {
       &:after {
+        font-family: 'levinim';
         content: 'CONTACT';
       }
     }

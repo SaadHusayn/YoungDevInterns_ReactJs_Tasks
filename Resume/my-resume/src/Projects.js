@@ -6,6 +6,7 @@ function Projects(){
         <hr />
 
         <div className="fw-bold">Django E-Commmerce Auctions App</div>
+        
 
         <li>Developed a user-friendly interface and implemented robust user authentication for secure interactions</li>
         <li>Enabled core functionalities including displaying auction listings and allowing users to place bids and add comments</li>

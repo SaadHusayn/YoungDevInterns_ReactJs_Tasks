@@ -14,8 +14,10 @@ function Experience(){
             YoungDev Interns, Pakistan
         </div>
 
-        <li>Utilizing React components to enhance development efficiency</li>
-        <li>Managing component state using React Hooks to accommodate app changes effectively</li>
+        <li>Developed and deployed a digital resume and personal portfolio website using React JS and Netlify</li>
+        <li>Implemented responsive design and optimized site performance</li>
+        <li>Improved website load times through code optimization and best practices</li>
+        <li>Managed version control and updates using Git</li>
 
 
 

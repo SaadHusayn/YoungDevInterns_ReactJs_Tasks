@@ -5,24 +5,31 @@ function Projects(){
         <div className="section-heading">Projects</div>
         <hr />
 
-        <div className="fw-bold">Django E-Commmerce Auctions App</div>
-        
+        <div className="fw-bold">E-Commmerce Auctions App</div>
 
-        <li>Developed a user-friendly interface and implemented robust user authentication for secure interactions</li>
-        <li>Enabled core functionalities including displaying auction listings and allowing users to place bids and add comments</li>
-        <li>Integrated an admin panel for effective site management</li>
-        <li>Designed Django models to effectively manipulate the SQLite database</li>
+        <div className="project">
+        <div><span className="fw-bold">Technologies: </span>Django - SQLite - Bootstrap5</div>
 
+        <li>Developed a user-friendly interface with robust user authentication and core functionalities for displaying auction listings, placing bids, and adding comments</li>
+        <li>Integrated an admin panel for effective site management and user interaction control</li>
+        <li>Designed and implemented Django models to efficiently manipulate and manage the SQLite database</li>
+        </div>
+        <div className="project">
+        <div className="fw-bold">Personal Portfolio</div>
+        <div><span className="fw-bold">Technologies: </span>ReactJS - SCSS - GSAP - EmailJS</div>
 
-        
+        <li>Designed a visually striking portfolio with unique and vibrant colors, beautiful animations, and a Pacman loader for an engaging user experience</li>
+        <li>Implemented React Router DOM for seamless page navigation and utilized React Hooks for efficient state management and functional components</li>
+        <li>Developed a fully functional Contact Us page using EmailJS, allowing users to easily reach out via email</li>
+        </div><div className="project">
+        <div className="fw-bold">Design Template</div>
+        <div><span className="fw-bold">Technologies: </span>Bootstrap5 - ShapeDivider - Pixcap</div>
 
-        <div className="fw-bold">ReactJS Arithmetic Game</div>
+        <li>Crafted an aesthetically pleasing design with distinct sections and elegant separation using ShapeDivider for a cohesive look</li>
+        <li>Integrated animated GIFs and 3D images from Pixcap to enhance visual appeal and interactivity</li>
+        <li>Ensured full responsiveness across all devices for a seamless user experience</li>
 
-        <li>Developed an interactive math game with dynamic arithmetic problems using React</li>
-        <li>Managed state to handle user responses, scores, and game logic with real-time updates</li>
-        <li>Provided visual feedback for correct and incorrect answers, including a congratulatory message at a score of 10</li>
-        <li>Enabled responsive user input and interactions to enhance gameplay experience</li>
-
+        </div>
         </div>
     );
 }

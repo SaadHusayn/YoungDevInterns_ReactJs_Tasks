@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useState } from 'react'
-import { faBootstrap, faGitAlt, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAndroid, faBootstrap, faFlutter, faGitAlt, faJsSquare, faReact, faTypo3 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import djangoLogo from '../../assets/images/django.png'
 import pythonLogo from '../../assets/images/python.png'
@@ -29,8 +29,9 @@ const Projects = () => {
         </h1>
         
         <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://github.com/SaadHusayn/commerce/' target='_blank'><div className='project'>E-Commerce Auctions App <span className='project-tech'> Django - Bootstrap - SQLite</span></div></a></div>
-        <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://saadhussain.netlify.app' target='_blank'><div className='project'>Professional Resume <span className='project-tech'> React - Bootstrap - CSS</span></div></a></div>
+        <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://github.com/SaadHusayn/RN-todo-list' target='_blank'><div className='project'>To-Do List <span className='project-tech'> React Native - TypeScript - AsyncStorage - Expo</span></div></a></div>
         <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://github.com/SaadHusayn/quiz-game/' target='_blank'><div className='project'>Math Quiz Game <span className='project-tech'> React - CSS</span></div></a></div>
+        <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://saadhussain.netlify.app' target='_blank'><div className='project'>Professional Resume <span className='project-tech'> React - Bootstrap - CSS</span></div></a></div>
         <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://github.com/SaadHusayn/mail/' target='_blank'><div className='project'>Mailing App <span className='project-tech'> Django - Javascript - REST APIs</span></div></a></div>
         <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://github.com/SaadHusayn/search/' target='_blank'><div className='project'>Google Search Clone <span className='project-tech'> HTML - CSS - GET Requests</span></div></a></div>
         <div className='project-link-wrapper'><a className='project-link' rel="noreferrer" href='https://github.com/SaadHusayn/wiki/' target='_blank'><div className='project'>Encyclopedia App <span className='project-tech'> Django - Bootstrap - markdown2</span></div></a></div>

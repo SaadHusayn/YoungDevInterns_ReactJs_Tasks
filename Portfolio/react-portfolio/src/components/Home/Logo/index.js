@@ -2,7 +2,8 @@ import './index.scss'
 import LogoS from '../../../assets/images/logo-s.png'
 import { useEffect, useRef} from 'react'
 import gsap from 'gsap-trial'
-import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin'
+// import { DrawSVGPlugin } from 'gsap-trial/DrawSVGPlugin' 
+// will not work on production due to trial version
 
 const Logo = () => {
   const bgRef = useRef()
@@ -15,7 +16,7 @@ const Logo = () => {
     if (didAnimate.current) return // Check if animation has run before, if yes, do nothing
     didAnimate.current = true
 
-    gsap.registerPlugin(DrawSVGPlugin)
+    // gsap.registerPlugin(DrawSVGPlugin)
 
     
 
@@ -25,7 +26,7 @@ const Logo = () => {
         opacity: 1,
     })
     .from(outlineLogoRef.current, {
-        drawSVG:0,
+        // drawSVG:0,
         duration:20,
         
     })

@@ -5,7 +5,7 @@ function Skills(){
         <div className="section-heading">Skills</div>
         <hr />
 
-        <div>Django | React | SQLite | Bootstrap | Docker | Selenium | Postgres | REST API | Git | Javascript | Python | HTML5 | CSS3 | C/++</div>
+        <div>React | Django | React Native | TypeScript | REST API | Git | Bootstrap | SQLite | Postgres | Docker | Selenium | Javascript | Python | HTML5 | CSS3 | C/++</div>
         </div>
     );
 }

@@ -7,7 +7,7 @@ function Experience(){
 
         <div className="d-flex align-items-center justify-content-between">
             <div className="fw-bold">React JS Intern</div>
-            <div className="fst-italic">July 2024 - Present</div>
+            <div className="fst-italic">July 2024 - August 2024</div>
         </div>
 
         <div className="fst-italic">
@@ -16,7 +16,6 @@ function Experience(){
 
         <li>Developed and deployed a digital resume and personal portfolio website using React JS and Netlify</li>
         <li>Implemented responsive design and optimized site performance</li>
-        <li>Improved website load times through code optimization and best practices</li>
         <li>Managed version control and updates using Git</li>
 
 

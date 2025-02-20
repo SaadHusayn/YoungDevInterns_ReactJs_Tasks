@@ -15,7 +15,7 @@ function Education(){
         </div>
 
         <div>
-            CGPA 3.85
+            CGPA 3.86
         </div>
         </div>
     );
